@@ -1,0 +1,58 @@
+
+div#welcome{
+    font-family: arial;
+    font-size: 8vw;
+    font-weight: bolder;
+    color: #d1447c;
+    text-align: center;
+    margin-top: 2vw;
+}
+
+div#logado{
+    border: 2px solid #075174;
+    border-radius: 30px;
+    width: 10vw;
+    height: 3vw;
+    text-align: center;
+    font-family: arial;
+    font-size: 1.1vw;
+    background-color: #075174;
+    color: white;
+    float: right;
+    margin-top: -6vw;
+    margin-right: 2vw;
+    position: relative
+    
+}
+
+div#logado p {
+    margin: 0;
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+
+      #button-privado p{
+  margin-left: 45%;
+  margin-top: 0.9vw;
+      }
+a{
+    margin: 0;
+    position: absolute;
+   top: 83%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%);
+    height: 3.5vw;
+    width: 390px;
+        background-color: #ff0066;
+        border: 2px solid #ff0066;
+    text-decoration: none;
+  
+    font-size: 1.4vw;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px
+}
